@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 45px;
+	background-color: #0073e6;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	height: 35px;
+	padding: 10px;
+}
+
+.signup {
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 320px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.signup h1 {
+	padding: 30px;
+	font-size: 30px;
+	font-weight: 200;
+	color: grey;
+}
+
+fieldset {
+	text-align: left;
+	border: 0px;
+}
+
+input, button {
+	display: block;
+	border: 2px solid grey;
+	padding: 15px
+	width: 286;
+}
