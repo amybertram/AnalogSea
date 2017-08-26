@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <!-- viewport  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- fonts Why does this not work? -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -17,11 +17,11 @@
 	<form class="signup" action="/signup" method="post">
 		<h1>Sign Up</h1>
 
-		<fieldset name="login-info">
+		<fieldset>
 			<label for="email">Email</label>
 			<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 
-			<label for="password" required>Password</label>
+			<label for="password">Password</label>
 			<input type="password" name="password" id="password" placeholder="1234passw0rd" required>
 		
 			<button type="submit">Sign Up</button>
@@ -30,6 +30,7 @@
 		<a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
 	</form>
 	<footer>
-		<p>Already have an account?</p><a href="/login">Log in</a></footer>
+		<p>Already have an account?</p><a href="/login">Log in</a>
+	</footer>
 </body>
 </html>
