@@ -55,6 +55,7 @@ button {
 	background-color: #40bf79;
 	border: 2px solid #40bf79;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 #email, #password {
