@@ -1,9 +1,9 @@
-html {
+* {
 	box-sizing: border-box;
 }
 
 body {
-	padding: 45px;
+	padding-top: 60px;
 	background-color: #0073e6;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -11,14 +11,14 @@ body {
 
 .logo {
 	height: 35px;
-	padding: 10px;
+	margin-bottom: 8px;
 }
 
 .signup {
 	margin: auto;
 	padding-left: 40px;
 	padding-right: 40px;
-	width: 320px;
+	width: 400px;
 	background-color: white;
 	border-radius: 3px;
 }
@@ -33,11 +33,52 @@ body {
 fieldset {
 	text-align: left;
 	border: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 input, button {
 	display: block;
-	border: 2px solid grey;
-	padding: 15px
-	width: 286;
+	padding: 15px;
+	width: 320px;
+}
+
+input {
+	border: 2px solid lightgrey;
+	border-radius: 3px;
+}
+
+button {
+	margin: 0px;
+	font-size: 20px;
+	color: white;
+	background-color: #40bf79;
+	border: 2px solid #40bf79;
+	border-radius: 3px;
+}
+
+#email, #password {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.forgot-password {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-size: 14px;
+	color: grey;
+}
+
+footer p, footer a {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a:hover {
+	color: lightgrey;
 }
