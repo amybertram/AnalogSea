@@ -4,7 +4,7 @@
 	<title>AnalogSea</title>
 	<meta charset="utf-8" name="description" content="AnalogSea Signup Page">
   <!-- reset -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <!-- viewport  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- fonts  -->
@@ -14,15 +14,15 @@
 </head>
 <body>
 	<img src="images/logo.png" alt="AnalogSea Logo" class="logo">
-	<form class="signup" action="/signup/" method="post">
+	<form class="signup" action="/signup" method="post">
 		<h1>Sign Up</h1>
 
 		<fieldset name="login-info">
-			<label for="email" required>Email</label>
-			<input type="email" name="email" id="email" placeholder="foo@bar.com">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 
 			<label for="password" required>Password</label>
-			<input type="password" name="password" id="password" placeholder="1234passw0rd">
+			<input type="password" name="password" id="password" placeholder="1234passw0rd" required>
 		
 			<button type="submit">Sign Up</button>
 		</fieldset>	
